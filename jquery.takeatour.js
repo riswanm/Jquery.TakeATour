@@ -1,7 +1,6 @@
 ;
 (function ($) {
     var accessedSteps = [], settings = {}
-
     $.fn.takeATour = function (options) {
         settings = $.extend({
             firstStep : 1
@@ -12,7 +11,6 @@
         accessedSteps.push(settings.firstStep);
         return generateStep(settings.firstStep - 1);
     }
-
     function generateStep(stepindex) {
 
 
