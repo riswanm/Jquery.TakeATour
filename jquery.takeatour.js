@@ -1,13 +1,6 @@
 ;
 (function ($) {
-   // var publish = fx.mediator.publish;
-  //  var events = touch.events;
-    //var router = fx.router;
-   // var extend = fx.extend;
     var accessedSteps = [], settings = {}
-
-  
-   // touch.tour = extend(touch.tour, tour);
 
     $.fn.takeATour = function (options) {
         settings = $.extend({
@@ -115,9 +108,7 @@
         if (stepCallBack) {
             stepCallBack(step.stepName);
         }
-        //publish(events.TAKE_A_TOUR_STEPIN, {
-        //    step: step.stepName
-        //});
+
     }
 
 }(jQuery));
