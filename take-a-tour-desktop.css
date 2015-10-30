@@ -1,0 +1,340 @@
+#take-a-tour-button {
+    background-color: #ededed;
+    margin-top: 0;
+    font-weight: normal;
+    border: none;
+    font-size: 14px;
+    text-shadow: none;
+    box-shadow: none;
+}
+div #trp img {
+    max-width: 100%;
+    height: auto;
+}
+div div div img {
+    max-width: 100%;
+    height: auto;
+}
+div img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.redbox {
+    /*background-color: red;*/
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.tat-ui-content {
+    padding: 0 !important;
+}
+#b div {
+    -webkit-animation: fadeIn 0s linear 5s;
+    /* Chrome, Safari, Opera */
+    animation: fadeIn 0s linear 5s;
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+#a div {
+    position: relative;
+    -webkit-animation: appear 6s linear;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 0s;
+    /* Chrome, Safari, Opera */
+    animation: appear 6s linear;
+    animation-delay: 0s;
+    font-size: 3em;
+    left: 23%;
+    position: absolute;
+    text-decoration: none;
+    top: 64.5%;
+    z-index: 103;
+    color: #6f4913;
+}
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.tat-circle {
+    z-index: 102;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    background-color: #666;
+}
+
+.tat-div-inner1 {
+    position: relative;
+    /*height: 0px;*/
+    /*padding-bottom: 70%;*/
+    /* padding-bottom: image's height divided by width multiply by 100 */
+}
+/*------------div 1--------------*/
+
+.tat-div1 {
+    display: block;
+}
+
+.detail-header {
+    background-image: url('../images/detail-header.jpg');
+    height: 11%;
+    left: 0%;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    z-index: 105;
+}
+
+
+
+#detail-scroll div {
+    position: relative;
+    -webkit-animation: myfirst 5s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 1s;
+    animation: myfirst 5s;
+    animation-delay: 1s;
+}
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes myfirst {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    50% {
+        left: 0px;
+        top: -300px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+/* Standard syntax */
+
+@keyframes myfirst {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    50% {
+        left: 0px;
+        top: -300px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+.move-hand {
+    /*height: 41%;
+    left: 26%;
+   
+    text-decoration: none;
+    top: 30%;
+    width: 27%;*/
+    z-index: 105;
+    position: absolute;
+}
+#move-hand div {
+    position: relative;
+    -webkit-animation: tophand 1s;
+    /* Chrome, Safari, Opera */
+    animation: tophand 1s;
+    animation-delay: 1s;
+    width: 100px;
+    height: 130px;
+    -webkit-animation: scaleme 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes tophand {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    50% {
+        left: 0px;
+        top: -400px;
+    }
+    100% {
+        left: 0px;
+        top: 100px;
+    }
+}
+/* Standard syntax */
+
+@keyframes tophand {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    50% {
+        left: 0px;
+        top: -400px;
+    }
+    100% {
+        left: 0px;
+        top: 100px;
+    }
+}
+/*------------div 5--------------*/
+
+
+.tat-link {
+    color: #fff !important;
+}
+
+.tat-previous {
+    border-radius: 0.5em;
+    color: #fff !important;
+    display: block;
+    height: 0;
+    left: 2%;
+    position: absolute;
+    text-decoration: none;
+    top: 47%;
+    width: 4%;
+    z-index: 999;
+}
+.exit {
+    border-radius: 0.5em;
+    color: #fff !important;
+    display: block;
+    height: 0;
+    left: 2%;
+    position: absolute;
+    text-decoration: none;
+    top: 1.2%;
+    width: 4%;
+    z-index: 999;
+}
+.tat-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    background-color: #666;
+}
+.exit-invisible {
+    display: block;
+    height: 15%;
+    left: 0;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    width: 25%;
+    z-index: 9999;
+}
+.tat-message {
+    background: none repeat scroll 0 0 rgba(26, 52, 88, 0.8);
+    font-family: helvetica, Arial;
+    font-size: 1em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 25%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    z-index: 99999;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10%;
+    display: none;
+}
+.tat-image {
+    width: 132px;
+    height: 110px;
+    display: block;
+    margin: auto;
+    background: url("../img/orientation.png") no-repeat scroll 50% 50% / 100% auto;
+}
+
+.screenImg{
+        padding-top: 75%;
+    /* background-position: center; */
+    margin: 0;
+    background-size: 100% 100%;
+    background-repeat: none;
+}
+
+.fingureImg{
+     height: 20%;
+    position: absolute;
+    width: 17%;
+    z-index: 103;
+    background-image: url(../img/press.png);
+    background-size: cover;
+    -moz-background-size: cover;
+    /* Firefox 3.6 */
+    background-position: center;
+    /* Internet Explorer 7/8 */
+    margin: 0;
+}
+.fingerLink{
+    position: absolute;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.tat-end {
+    background: none repeat scroll 0 0 rgba(26, 52, 88, 0.8);
+    border-radius: 5%;
+    font-family: helvetica, Arial;
+    font-size: 1em;
+    left: 27%;
+    padding: 10%;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 30%;
+    z-index: 104;
+    border: 2px solid #1a3458;
+    color: #fff !important;
+}
+.tat-previous {
+    background: url("../img/arrow-back.svg") no-repeat scroll 50% 50% / 19% auto #1a3458;
+    padding: 1.5em 0.5em;
+}
